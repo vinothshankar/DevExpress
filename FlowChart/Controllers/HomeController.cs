@@ -15,13 +15,23 @@ namespace FlowChart.Controllers
         {
             DevDemo DevDemo = new DevDemo();
             string jsonFilePath = @"F:\Projects\FlowChart\FlowChart\Shapes\Shapes.json";
+            string diagramFlow = @"F:\Projects\FlowChart\FlowChart\Shapes\diagram_flow.json";
+
             List<dynamic> Shapes = new List<dynamic>();
             using (StreamReader r = new StreamReader(jsonFilePath))
             {
                 string json = r.ReadToEnd();
                 Shapes = JsonConvert.DeserializeObject<List<dynamic>>(json);
+                DevDemo.Shapes = JsonConvert.SerializeObject(Shapes);
             }
-            DevDemo.Shapes = JsonConvert.SerializeObject(Shapes);
+           
+            List<dynamic> Flows = new List<dynamic>();
+            using (StreamReader r = new StreamReader(diagramFlow))
+            {
+                string json = r.ReadToEnd();
+                DevDemo.DiagramFlow = JsonConvert.SerializeObject(json);
+            }
+            
             return View(DevDemo);
         }
 

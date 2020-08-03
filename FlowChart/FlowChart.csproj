@@ -173,6 +173,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Shapes\Shapes.json" />
+    <Content Include="Shapes\diagram_flow.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

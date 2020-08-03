@@ -8,5 +8,6 @@ namespace FlowChart.Models
     public class DevDemo
     {
         public string Shapes { get; set; }
+        public string DiagramFlow { get; set; }
     }
 }

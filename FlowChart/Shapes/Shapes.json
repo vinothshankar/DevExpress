@@ -37,8 +37,116 @@
   },
   {
     "category": "hardware",
-    "type": "arrow",
-    "title": "arrow",
+    "type": "laptop",
+    "title": "Laptop",
+    "backgroundImageUrl": "/Shapes/internet.png",
+    "backgroundImageLeft": 0.15,
+    "backgroundImageTop": 0,
+    "backgroundImageWidth": 0.7,
+    "backgroundImageHeight": 0.7,
+    "defaultWidth": 0.75,
+    "defaultHeight": 0.75,
+    "defaultText": "Laptop",
+    "allowEditText": true,
+    "textLeft": 0,
+    "textTop": 0.7,
+    "textWidth": 1,
+    "textHeight": 0.3,
+    "connectionPoints": [
+      {
+        "x": 0.5,
+        "y": 0
+      },
+      {
+        "x": 0.9,
+        "y": 0.5
+      },
+      {
+        "x": 0.5,
+        "y": 1
+      },
+      {
+        "x": 0.1,
+        "y": 0.5
+      }
+    ]
+  },
+  {
+    "category": "hardware",
+    "type": "mobile",
+    "title": "Mobile",
+    "backgroundImageUrl": "/Shapes/left-arrow.png",
+    "backgroundImageLeft": 0.15,
+    "backgroundImageTop": 0,
+    "backgroundImageWidth": 0.7,
+    "backgroundImageHeight": 0.7,
+    "defaultWidth": 0.75,
+    "defaultHeight": 0.75,
+    "defaultText": "Mobile",
+    "allowEditText": true,
+    "textLeft": 0,
+    "textTop": 0.7,
+    "textWidth": 1,
+    "textHeight": 0.3,
+    "connectionPoints": [
+      {
+        "x": 0.5,
+        "y": 0
+      },
+      {
+        "x": 0.9,
+        "y": 0.5
+      },
+      {
+        "x": 0.5,
+        "y": 1
+      },
+      {
+        "x": 0.1,
+        "y": 0.5
+      }
+    ]
+  },
+  {
+    "category": "hardware",
+    "type": "pc",
+    "title": "PC",
+    "backgroundImageUrl": "/Shapes/computer.svg",
+    "backgroundImageLeft": 0.15,
+    "backgroundImageTop": 0,
+    "backgroundImageWidth": 0.7,
+    "backgroundImageHeight": 0.7,
+    "defaultWidth": 0.75,
+    "defaultHeight": 0.75,
+    "defaultText": "PC",
+    "allowEditText": true,
+    "textLeft": 0,
+    "textTop": 0.7,
+    "textWidth": 1,
+    "textHeight": 0.3,
+    "connectionPoints": [
+      {
+        "x": 0.5,
+        "y": 0
+      },
+      {
+        "x": 0.9,
+        "y": 0.5
+      },
+      {
+        "x": 0.5,
+        "y": 1
+      },
+      {
+        "x": 0.1,
+        "y": 0.5
+      }
+    ]
+  },
+  {
+    "category": "hardware",
+    "type": "phone",
+    "title": "Phone",
     "backgroundImageUrl": "/Shapes/call.svg",
     "backgroundImageLeft": 0.15,
     "backgroundImageTop": 0,
@@ -46,7 +154,7 @@
     "backgroundImageHeight": 0.7,
     "defaultWidth": 0.75,
     "defaultHeight": 0.75,
-    "defaultText": "arrow",
+    "defaultText": "Phone",
     "allowEditText": true,
     "textLeft": 0,
     "textTop": 0.7,
@@ -74,15 +182,15 @@
   {
     "category": "hardware",
     "type": "message",
-    "title": "message",
-    "backgroundImageUrl": "/Shapes/computer.svg",
+    "title": "Phone",
+    "backgroundImageUrl": "/Shapes/message.png",
     "backgroundImageLeft": 0.15,
     "backgroundImageTop": 0,
     "backgroundImageWidth": 0.7,
     "backgroundImageHeight": 0.7,
     "defaultWidth": 0.75,
     "defaultHeight": 0.75,
-    "defaultText": "message",
+    "defaultText": "Phone",
     "allowEditText": true,
     "textLeft": 0,
     "textTop": 0.7,
@@ -108,17 +216,17 @@
     ]
   },
   {
-    "category": "Monitors",
+    "category": "hardware",
     "type": "monitor",
-    "title": "monitor",
-    "backgroundImageUrl": "/Shapes/Monitor.png",
+    "title": "Phone",
+    "backgroundImageUrl": "/Shapes/monitor.png",
     "backgroundImageLeft": 0.15,
     "backgroundImageTop": 0,
     "backgroundImageWidth": 0.7,
     "backgroundImageHeight": 0.7,
     "defaultWidth": 0.75,
     "defaultHeight": 0.75,
-    "defaultText": "monitor",
+    "defaultText": "Phone",
     "allowEditText": true,
     "textLeft": 0,
     "textTop": 0.7,
@@ -144,9 +252,9 @@
     ]
   },
   {
-    "category": "Monitors",
+    "category": "hardware",
     "type": "tv",
-    "title": "tv",
+    "title": "Phone",
     "backgroundImageUrl": "/Shapes/tv.png",
     "backgroundImageLeft": 0.15,
     "backgroundImageTop": 0,
@@ -154,7 +262,7 @@
     "backgroundImageHeight": 0.7,
     "defaultWidth": 0.75,
     "defaultHeight": 0.75,
-    "defaultText": "TV",
+    "defaultText": "Phone",
     "allowEditText": true,
     "textLeft": 0,
     "textTop": 0.7,
@@ -182,7 +290,7 @@
   {
     "category": "hardware",
     "type": "video",
-    "title": "Video Camera",
+    "title": "Phone",
     "backgroundImageUrl": "/Shapes/video-camera.png",
     "backgroundImageLeft": 0.15,
     "backgroundImageTop": 0,
@@ -190,7 +298,7 @@
     "backgroundImageHeight": 0.7,
     "defaultWidth": 0.75,
     "defaultHeight": 0.75,
-    "defaultText": "cam",
+    "defaultText": "Phone",
     "allowEditText": true,
     "textLeft": 0,
     "textTop": 0.7,
