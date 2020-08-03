@@ -1,0 +1,218 @@
+[
+  {
+    "category": "hardware",
+    "type": "internet",
+    "title": "Internet",
+    "backgroundImageUrl": "/Shapes/call.svg",
+    "backgroundImageLeft": 0.15,
+    "backgroundImageTop": 0,
+    "backgroundImageWidth": 0.7,
+    "backgroundImageHeight": 0.7,
+    "defaultWidth": 0.75,
+    "defaultHeight": 0.75,
+    "defaultText": "Internet",
+    "allowEditText": true,
+    "textLeft": 0,
+    "textTop": 0.7,
+    "textWidth": 1,
+    "textHeight": 0.3,
+    "connectionPoints": [
+      {
+        "x": 0.5,
+        "y": 0
+      },
+      {
+        "x": 0.9,
+        "y": 0.5
+      },
+      {
+        "x": 0.5,
+        "y": 1
+      },
+      {
+        "x": 0.1,
+        "y": 0.5
+      }
+    ]
+  },
+  {
+    "category": "hardware",
+    "type": "arrow",
+    "title": "arrow",
+    "backgroundImageUrl": "/Shapes/call.svg",
+    "backgroundImageLeft": 0.15,
+    "backgroundImageTop": 0,
+    "backgroundImageWidth": 0.7,
+    "backgroundImageHeight": 0.7,
+    "defaultWidth": 0.75,
+    "defaultHeight": 0.75,
+    "defaultText": "arrow",
+    "allowEditText": true,
+    "textLeft": 0,
+    "textTop": 0.7,
+    "textWidth": 1,
+    "textHeight": 0.3,
+    "connectionPoints": [
+      {
+        "x": 0.5,
+        "y": 0
+      },
+      {
+        "x": 0.9,
+        "y": 0.5
+      },
+      {
+        "x": 0.5,
+        "y": 1
+      },
+      {
+        "x": 0.1,
+        "y": 0.5
+      }
+    ]
+  },
+  {
+    "category": "hardware",
+    "type": "message",
+    "title": "message",
+    "backgroundImageUrl": "/Shapes/computer.svg",
+    "backgroundImageLeft": 0.15,
+    "backgroundImageTop": 0,
+    "backgroundImageWidth": 0.7,
+    "backgroundImageHeight": 0.7,
+    "defaultWidth": 0.75,
+    "defaultHeight": 0.75,
+    "defaultText": "message",
+    "allowEditText": true,
+    "textLeft": 0,
+    "textTop": 0.7,
+    "textWidth": 1,
+    "textHeight": 0.3,
+    "connectionPoints": [
+      {
+        "x": 0.5,
+        "y": 0
+      },
+      {
+        "x": 0.9,
+        "y": 0.5
+      },
+      {
+        "x": 0.5,
+        "y": 1
+      },
+      {
+        "x": 0.1,
+        "y": 0.5
+      }
+    ]
+  },
+  {
+    "category": "Monitors",
+    "type": "monitor",
+    "title": "monitor",
+    "backgroundImageUrl": "/Shapes/Monitor.png",
+    "backgroundImageLeft": 0.15,
+    "backgroundImageTop": 0,
+    "backgroundImageWidth": 0.7,
+    "backgroundImageHeight": 0.7,
+    "defaultWidth": 0.75,
+    "defaultHeight": 0.75,
+    "defaultText": "monitor",
+    "allowEditText": true,
+    "textLeft": 0,
+    "textTop": 0.7,
+    "textWidth": 1,
+    "textHeight": 0.3,
+    "connectionPoints": [
+      {
+        "x": 0.5,
+        "y": 0
+      },
+      {
+        "x": 0.9,
+        "y": 0.5
+      },
+      {
+        "x": 0.5,
+        "y": 1
+      },
+      {
+        "x": 0.1,
+        "y": 0.5
+      }
+    ]
+  },
+  {
+    "category": "Monitors",
+    "type": "tv",
+    "title": "tv",
+    "backgroundImageUrl": "/Shapes/tv.png",
+    "backgroundImageLeft": 0.15,
+    "backgroundImageTop": 0,
+    "backgroundImageWidth": 0.7,
+    "backgroundImageHeight": 0.7,
+    "defaultWidth": 0.75,
+    "defaultHeight": 0.75,
+    "defaultText": "TV",
+    "allowEditText": true,
+    "textLeft": 0,
+    "textTop": 0.7,
+    "textWidth": 1,
+    "textHeight": 0.3,
+    "connectionPoints": [
+      {
+        "x": 0.5,
+        "y": 0
+      },
+      {
+        "x": 0.9,
+        "y": 0.5
+      },
+      {
+        "x": 0.5,
+        "y": 1
+      },
+      {
+        "x": 0.1,
+        "y": 0.5
+      }
+    ]
+  },
+  {
+    "category": "hardware",
+    "type": "video",
+    "title": "Video Camera",
+    "backgroundImageUrl": "/Shapes/video-camera.png",
+    "backgroundImageLeft": 0.15,
+    "backgroundImageTop": 0,
+    "backgroundImageWidth": 0.7,
+    "backgroundImageHeight": 0.7,
+    "defaultWidth": 0.75,
+    "defaultHeight": 0.75,
+    "defaultText": "cam",
+    "allowEditText": true,
+    "textLeft": 0,
+    "textTop": 0.7,
+    "textWidth": 1,
+    "textHeight": 0.3,
+    "connectionPoints": [
+      {
+        "x": 0.5,
+        "y": 0
+      },
+      {
+        "x": 0.9,
+        "y": 0.5
+      },
+      {
+        "x": 0.5,
+        "y": 1
+      },
+      {
+        "x": 0.1,
+        "y": 0.5
+      }
+    ]
+  }
+]

@@ -1,0 +1,176 @@
+﻿@using FlowChart.Models
+@model DevDemo
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        #diagram {
+            height: 900px;
+        }
+    </style>
+    <title>DevExtreme Demo</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write(decodeURIComponent('%3Cscript src="js/jquery.min.js"%3E%3C/script%3E'))</script>
+    <script src="https://cdn3.devexpress.com/jslib/20.1.6/js/dx-diagram.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/20.1.6/css/dx.common.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/20.1.6/css/dx.light.css" />
+    <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/20.1.6/css/dx-diagram.min.css" />
+    <script src="https://cdn3.devexpress.com/jslib/20.1.6/js/dx.all.js"></script>
+
+</head>
+<body class="dx-viewport">
+    <div class="demo-container">
+        <div id="diagram">
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    $(function () {
+        var shapes = '@Model.Shapes';
+        
+        var diagram = $("#diagram").dxDiagram({
+            customShapes: [
+                {
+                    category: "hardware",
+                    type: "internet",
+                    title: "Internet",
+                    backgroundImageUrl: "/Shapes/call.svg",
+                    backgroundImageLeft: 0.15,
+                    backgroundImageTop: 0,
+                    backgroundImageWidth: 0.7,
+                    backgroundImageHeight: 0.7,
+                    defaultWidth: 0.75,
+                    defaultHeight: 0.75,
+                    defaultText: "Internet",
+                    allowEditText: true,
+                    textLeft: 0,
+                    textTop: 0.7,
+                    textWidth: 1,
+                    textHeight: 0.3,
+                    connectionPoints: [
+                        { x: 0.5, y: 0 },
+                        { x: 0.9, y: 0.5 },
+                        { x: 0.5, y: 1 },
+                        { x: 0.1, y: 0.5 }
+                    ]
+                },
+                {
+                    category: "hardware",
+                    type: "laptop",
+                    title: "Laptop",
+                    backgroundImageUrl: "/Shapes/call.svg",
+                    backgroundImageLeft: 0.15,
+                    backgroundImageTop: 0,
+                    backgroundImageWidth: 0.7,
+                    backgroundImageHeight: 0.7,
+                    defaultWidth: 0.75,
+                    defaultHeight: 0.75,
+                    defaultText: "Laptop",
+                    allowEditText: true,
+                    textLeft: 0,
+                    textTop: 0.7,
+                    textWidth: 1,
+                    textHeight: 0.3,
+                    connectionPoints: [
+                        { x: 0.5, y: 0 },
+                        { x: 0.9, y: 0.5 },
+                        { x: 0.5, y: 1 },
+                        { x: 0.1, y: 0.5 }
+                    ]
+                },
+                {
+                    category: "hardware",
+                    type: "mobile",
+                    title: "Mobile",
+                    backgroundImageUrl: "/Shapes/call.svg",
+                    backgroundImageLeft: 0.15,
+                    backgroundImageTop: 0,
+                    backgroundImageWidth: 0.7,
+                    backgroundImageHeight: 0.7,
+                    defaultWidth: 0.75,
+                    defaultHeight: 0.75,
+                    defaultText: "Mobile",
+                    allowEditText: true,
+                    textLeft: 0,
+                    textTop: 0.7,
+                    textWidth: 1,
+                    textHeight: 0.3,
+                    connectionPoints: [
+                        { x: 0.5, y: 0 },
+                        { x: 0.9, y: 0.5 },
+                        { x: 0.5, y: 1 },
+                        { x: 0.1, y: 0.5 }
+                    ]
+                },
+                {
+                    category: "hardware",
+                    type: "pc",
+                    title: "PC",
+                    backgroundImageUrl: "/Shapes/computer.svg",
+                    backgroundImageLeft: 0.15,
+                    backgroundImageTop: 0,
+                    backgroundImageWidth: 0.7,
+                    backgroundImageHeight: 0.7,
+                    defaultWidth: 0.75,
+                    defaultHeight: 0.75,
+                    defaultText: "PC",
+                    allowEditText: true,
+                    textLeft: 0,
+                    textTop: 0.7,
+                    textWidth: 1,
+                    textHeight: 0.3,
+                    connectionPoints: [
+                        { x: 0.5, y: 0 },
+                        { x: 0.9, y: 0.5 },
+                        { x: 0.5, y: 1 },
+                        { x: 0.1, y: 0.5 }
+                    ]
+                },
+                {
+                    category: "hardware",
+                    type: "phone",
+                    title: "Phone",
+                    backgroundImageUrl: "/Shapes/internet.png",
+                    backgroundImageLeft: 0.15,
+                    backgroundImageTop: 0,
+                    backgroundImageWidth: 0.7,
+                    backgroundImageHeight: 0.7,
+                    defaultWidth: 0.75,
+                    defaultHeight: 0.75,
+                    defaultText: "Phone",
+                    allowEditText: true,
+                    textLeft: 0,
+                    textTop: 0.7,
+                    textWidth: 1,
+                    textHeight: 0.3,
+                    connectionPoints: [
+                        { x: 0.5, y: 0 },
+                        { x: 0.9, y: 0.5 },
+                        { x: 0.5, y: 1 },
+                        { x: 0.1, y: 0.5 }
+                    ]
+                }
+            ],
+            toolbox: {
+                groups: [{ category: "hardware", title: "Hardware" }]
+            }
+        }).dxDiagram("instance");
+
+        $.ajax({
+            url: "https://js.devexpress.com/Demos/WidgetsGallery/JSDemos/data/diagram-flow.json",
+            dataType: "text",
+            success: function (data) {
+                diagram.import(data);
+            }
+        });
+    });
+
+</script>
